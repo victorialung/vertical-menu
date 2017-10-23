@@ -3,6 +3,8 @@
 }
 
 
+
+
 #head_menu {
     position: relative;
     left: 50px;
@@ -11,14 +13,9 @@
     font-size: 18px;
 }
 
-#main_menu{
+#main_menu {
     position: relative;
     bottom: 10px;
-}
-
-h1{
-    font-weight: normal;
-    width: 400px;
 }
 
 .start_menu {
@@ -28,17 +25,34 @@ h1{
     background-color: rgb(249, 169, 26);
 }
 
+h1{
+    font-weight: normal;
+    width: 400px;
+}
+
 .grey_box{
     width: 400px;
     padding: 15px;
     background-color: rgb(234,237,237);
+    color: black;
 }
+
+a{
+    text-decoration: none;
+}
+
 
 .grey_box:hover{
     background: rgb(204, 209, 209);
 }
 
+.grey_box:active {
+    background: rgb(112, 113, 124);     
+}
+
 .start_menu:hover {
     background: rgb(204, 209, 209);
-    color: black;
+}
+.start_menu:active {
+    background: rgb(112, 113, 124);
 }
